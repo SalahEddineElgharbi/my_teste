@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+
+{% extends "basic_app/base.html" %}
+
+{% block body_block %}
+
+<h1>  heloo from outher </h1>
+<a href="{% url 'myapp:relative' %}"> back to Relative Page !!</a>
+
+{% endblock %} 
